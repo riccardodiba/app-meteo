@@ -81,10 +81,10 @@ function CardWeather(props) {
                     {weatherData.weather[0].description}
                   </Card.Text>
                   <Card.Text className="fs-5">
-                    Temperature Min {weatherData.main.temp_min}°C <ThermometerHigh  className="text-dark ms-2" />
+                    Temperature Min {weatherData.main.temp_min}°C <ThermometerHalf  className="text-dark ms-2" />
                   </Card.Text>
                    <Card.Text className="fs-5">
-                    Temperature Max {weatherData.main.temp_max}°C <ThermometerHalf className="text-dark ms-2" />
+                    Temperature Max {weatherData.main.temp_max}°C <ThermometerHigh className="text-dark ms-2" />
                   </Card.Text>
                    <Card.Text className="fs-5">
                    Wind {weatherData.wind.speed}Km/h <Wind className="text-dark ms-2" />
